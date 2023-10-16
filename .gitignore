@@ -24,7 +24,8 @@
 /src/server/scripts/Custom/*
 !/src/server/scripts/Custom/README.md
 
-/docker-compose.override.yml
+/*.override.yml
+/*.override.yaml
 
 !.gitkeep
 
@@ -91,3 +92,7 @@ local.properties
 #  !modules/yourmodule
 #
 # ==================
+
+#NPCBots
+!/data/sql/custom/db_characters/
+!/data/sql/custom/db_world/
